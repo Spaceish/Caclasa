@@ -2,12 +2,12 @@ import firebase from "firebase";
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyATOkzZ8M03JDlexVfextL5fkPTW7jhL6Q",
-  authDomain: "yt-classroom-clone.firebaseapp.com",
-  projectId: "yt-classroom-clone",
-  storageBucket: "yt-classroom-clone.appspot.com",
-  messagingSenderId: "170227524980",
-  appId: "1:170227524980:web:78806688690ce40a7d3821",
+  apiKey: "AIzaSyCaeVJm3hL3djYLealTdwzU6BNSvV4XSM8",
+  authDomain: "caclasa.firebaseapp.com",
+  projectId: "caclasa",
+  storageBucket: "caclasa.appspot.com",
+  messagingSenderId: "1034643298894",
+  appId: "1:1034643298894:web:f0587c6a9c7b0e9654411f"
 };
 
 firebase.initializeApp(firebaseConfig);
