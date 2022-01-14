@@ -43,8 +43,8 @@ const Header = ({ children }) => {
           <div className={classes.headerWrapper}>
             {children}
             <img
-              src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"
-              alt="Classroom"
+              src="https://cdn.discordapp.com/attachments/836931303520993331/858360641277263912/2e2a37da51e172525390-removebg-preview.png"
+              alt="Caclasa"
             />
             <Typography variant="h6" className={classes.title}>
               Classroom

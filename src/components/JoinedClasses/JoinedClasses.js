@@ -19,7 +19,7 @@ const JoinedClasses = ({ classData }) => {
         </div>
         <Avatar
           className="joined__avatar"
-          src="https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/s75-c-fbw=1/photo.jpg"
+          src="https://cdn.discordapp.com/attachments/925448955821719573/931604130873618432/image-removebg-preview_2.png"
         />
       </div>
       <div className="joined__bottom">

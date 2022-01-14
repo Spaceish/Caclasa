@@ -27,40 +27,33 @@ const CreateClass = () => {
         ) : (
           <>
             <div className="class__title">
-              Using Classroom at a school with students?
+              Vrei sa creezi o caclasa?
             </div>
             <DialogContent className="class__content">
               <p className="class__text">
-                <p>If so, your school must sign up for a free</p>
+                <p>Daca da, ei bine ai ocaziaunea sa o faci chiar acum</p>
                 <a href="/help" className="class__link">
-                  G Suite for Education
-                </a>
-                account before you can use Classroom
-                <a href="/learn" className="class__link2">
-                  Learn More.
+                  Caclasa pentru o cacare mai cu sens.
                 </a>
               </p>
               <p>
-                G Suite for Education lets schools decide which Google services
-                their students can use, and provides additional
+                  Educatie chiar de la sef
                 <a href="/privacy" className="class__link2 class__link">
-                  privacy and security
+                  Seciuritate si cacat privat.
                 </a>
-                protections that are important in a school setting. Students
-                cannot use Google Classroom at a school with personal accounts.
+                Protectie impotriva Hacacaerilor de rahat.
               </p>
 
               <div className="class__checkboxWrapper">
                 <Checkbox color="primary" onChange={() => setChecked(!check)} />
                 <p>
-                  I've read and understand the above notice, and I'm not using
-                  Classroom at a school with students
+                  Am citit cacagulamentu lol.
                 </p>
               </div>
             </DialogContent>
             <DialogActions>
               <Button autoFocus onClick={() => setCreateClassDialog(false)}>
-                Close
+                Inchide.
               </Button>
 
               <Button
@@ -69,7 +62,7 @@ const CreateClass = () => {
                 disabled={!check}
                 onClick={() => setShowForm(true)}
               >
-                Continue
+                Continua cacre.
               </Button>
             </DialogActions>
           </>

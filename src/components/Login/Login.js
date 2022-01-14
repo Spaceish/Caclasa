@@ -12,7 +12,7 @@ const Login = () => {
       <img className="login__logo" src={logo} alt="Classroom" />
 
       <Button variant="contained" color="default" onClick={() => login()}>
-        Login Now!
+        Logheazate la sef.
       </Button>
     </div>
   );
